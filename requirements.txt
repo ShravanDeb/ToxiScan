@@ -1,0 +1,38 @@
+# ToxiScan — requirements.txt
+# Install all dependencies with:
+#   pip install -r requirements.txt
+
+# core data science
+pandas
+numpy
+scikit-learn
+
+# model training
+xgboost
+imbalanced-learn
+
+# molecular chemistry
+rdkit-pypi
+
+# dataset loading
+kagglehub[pandas-datasets]
+pubchempy
+
+# external databases
+chembl-webresource-client
+
+# AI explainer
+groq
+google-generativeai
+
+# web app
+streamlit
+streamlit-searchbox
+
+# visualization
+matplotlib
+seaborn
+
+# utilities
+requests
+pillow
